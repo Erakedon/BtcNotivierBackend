@@ -2,7 +2,7 @@
     "port": 5000,
     "database": {
         "host": "localhost",
-        "user": "username",
+        "user": "user",
         "password": "password",
         "databaseName": "btcmonitor"
     }

@@ -8,9 +8,9 @@ module.exports = {
     initialize: () => {
 
         this.connection = mysql.createConnection({
-          host: "localhost",
-          user: "root",
-          password: "fh2Kh8",
+          host: config.database.host,
+          user: config.database.user,
+          password: config.database.password,
         });
         
         this.connection.connect(err => {
